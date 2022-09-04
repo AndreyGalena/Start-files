@@ -1,1 +1,14 @@
-﻿
+﻿@import '_nullstyle',
+'_header',
+'_main-one',
+'_footer';
+
+:root {
+    --wrapper-width: 1440px;
+    --bg-color: #eee;
+    --info-color: #5bc0de;
+}
+
+::-webkit-scrollbar{
+    width: 2px;
+}
